@@ -5,8 +5,7 @@ app.get('/',(req,res) =>  {
     console.log("hello arpit")
     var Web3 = require('web3');
     var web3 = new Web3('ws://localhost:8546');
-   var privateKey= web3.eth.accounts.create();
-    res.send(privateKey)
+  
 
 })
 
